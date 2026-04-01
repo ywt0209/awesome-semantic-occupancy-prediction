@@ -8,9 +8,9 @@
 ## 🗂 Conferences
 
 - **2026**
-  - [3DV](#3dv-2026) (3) &nbsp;|&nbsp; [WACV](#wacv-2026) (1) &nbsp;|&nbsp; [AAAI](#aaai-2026) (6) &nbsp;|&nbsp; [ICLR](#iclr-2026) (3) &nbsp;|&nbsp; [CVPR](#cvpr-2026) (7)
+  - [3DV](#3dv-2026) (3) &nbsp;|&nbsp; [WACV](#wacv-2026) (1) &nbsp;|&nbsp; [AAAI](#aaai-2026) (6) &nbsp;|&nbsp; [ICLR](#iclr-2026) (3) &nbsp;|&nbsp; [CVPR](#cvpr-2026) (8)
 
-**Total: 20 papers**
+**Total: 21 papers**
 
 ---
 
@@ -38,6 +38,7 @@
 | 18 | L2COcc | CVPR 2026 | Camera (LiDAR distillation) | Knowledge distillation | SSC | AD | [2503.12369](https://arxiv.org/abs/2503.12369) |
 | 19 | OccuFly | CVPR 2026 | Aerial Camera | — | Benchmark (SSC) | Aerial | [2512.20770](https://arxiv.org/abs/2512.20770) |
 | 20 | Instance-Centric Panoptic Occ | CVPR 2026 | Camera | Instance-centric | Benchmark (Panoptic) | AD | [2603.27238](https://arxiv.org/abs/2603.27238) |
+| 21 | AdaSFormer | CVPR 2026 | Monocular Camera | Adaptive Serialized Transformer | SSC | Indoor | [2603.25494](https://arxiv.org/abs/2603.25494) |
 
 ---
 
@@ -161,6 +162,12 @@
 - **Tags:** `camera` `instance-centric` `panoptic` `benchmark` `autonomous-driving`
 - **arXiv:** https://arxiv.org/abs/2603.27238
 
+#### AdaSFormer: Adaptive Serialized Transformers for Monocular Semantic Scene Completion from Indoor Environments
+- **Authors:** Wang, Xuzhi; Wu, Xinran; Wang, Song; Kong, Lingdong; Zhao, Ziping
+- **Tags:** `monocular-camera` `transformer` `adaptive` `SSC` `indoor`
+- **arXiv:** https://arxiv.org/abs/2603.25494
+- **Notes:** Proposes (1) Adaptive Serialized Transformer with trainable shifting for dynamic receptive fields, (2) Center-Relative Positional Encoding for indoor spatial structure, (3) Convolution-Modulated Layer Normalization bridging conv & transformer features. Evaluated on NYUv2 and Occ-ScanNet.
+
 ---
 
 ## Thematic Clusters
@@ -203,6 +210,7 @@
 - OccuFly (CVPR) — aerial perspective benchmark
 - G²-Occ (ICLR) — embodied (indoor) setting
 - Instance-Centric Panoptic Occ (CVPR) — panoptic benchmark for AD
+- AdaSFormer (CVPR) — indoor SSC with adaptive transformer design
 
 ### 6. Robustness / Representation Quality (3 papers)
 > Improving representation or handling real-world challenges.
