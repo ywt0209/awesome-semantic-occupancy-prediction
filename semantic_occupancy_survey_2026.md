@@ -1,6 +1,6 @@
 # Semantic Occupancy Prediction — Paper Survey (2026)
 
-**Scope:** Semantic Occupancy Prediction / Semantic Scene Completion (SSC) / Semantic Occupancy Forecasting / Panoptic Occupancy Benchmark.  
+**Scope:** Semantic Occupancy Prediction / Semantic Scene Completion / Semantic Occupancy Forecasting / Panoptic Occupancy Benchmark.  
 **Excluded:** Papers where occupancy is only an auxiliary signal for 3D detection or planning.  
 **Conferences covered:** 3DV 2026, WACV 2026, AAAI 2026, ICLR 2026, CVPR 2026  
 **Total:** 20 papers
